@@ -1,47 +1,52 @@
- Your Personal Recipe Assistant
+**RecipeAppPoe**
 
-Welcome to your personal recipe assistant – a handy tool designed to simplify the art of cooking and recipe management. Whether you're a seasoned chef or just starting out in the kitchen, this application is here to make your culinary journey enjoyable and stress-free. Let's dive into all the features and functionalities it has to offer!
+RecipeAppPoe is a user-friendly Windows Presentation Foundation (WPF) application designed to streamline the creation, management, and scaling of recipes. It simplifies the process of adding ingredients and detailed preparation steps, allowing users to adjust ingredient quantities while preserving original amounts with ease.
 
- What Can Your Recipe Assistant Do?
+**Key Features**
 
- 1. Easy Recipe Entry
-Creating a new recipe is a breeze with your assistant. Just enter the details for each ingredient – from its name and quantity to the unit of measurement. Your assistant will guide you through the process, ensuring that every detail is captured accurately.
+Recipe Management:
+- **Add Recipes:** Effortlessly create new recipes complete with ingredients and preparation steps.
+- **View Recipes:** Access a comprehensive list of all recipes stored in the application.
+- **Delete Recipes:** Remove specific recipes from the list as needed.
+- **Clear All Recipes:** Easily clear the entire recipe database with a single action.
 
- 2. Step-by-Step Preparation Guide
-No more confusion in the kitchen! Your assistant helps you document each preparation step for your recipe. From chopping vegetables to mixing ingredients, you'll have a clear guide to follow every step of the way.
- 3. Adjust Quantities with Ease
-Need to scale up or down a recipe? No problem! Your assistant lets you adjust ingredient quantities effortlessly. Whether you're cooking for a crowd or just for yourself, you can customize recipes to suit your needs.
- 4. Revert to the Original Recipe
-Experimenting with new flavors? Your assistant has your back. If you make changes you're not happy with, you can easily revert to the original recipe – no harm done!
+Filtering and Searching:
+- **Filter by Ingredient:** Search recipes by specific ingredient names.
+- **Filter by Food Group:** Categorize recipes based on their associated food groups.
+- **Filter by Calories:** Set maximum calorie limits to filter recipes accordingly.
 
- 5. Simple and Intuitive Interface
-Say goodbye to complicated menus and confusing options! Your assistant features a user-friendly interface with clear prompts and easy navigation. Cooking has never been this hassle-free!
+Recipe Scaling:
+- **Scale Recipes:** Adjust ingredient quantities by factors of 0.5, 2, or 3 to cater to different serving sizes.
+- **Calorie Alert:** Receive notifications if the scaled recipe exceeds a specified calorie threshold, helping users maintain dietary preferences.
 
- 6. Colorful Visuals for Easy Navigation
-To add a touch of fun to your cooking experience, your assistant comes with colorful visuals. Whether it's highlighting important information or signaling success, colors make using the app a delight.
+**Enhancements and Improvements**
 
- How to Get Cooking with Your Assistant
+Based on user feedback, RecipeAppPoe underwent a significant transformation from a console-based interface to a more intuitive WPF interface. This upgrade aims to enhance usability and functionality, introducing advanced features such as ingredient and calorie-based filtering. The addition of recipe scaling options and calorie alerts ensures flexibility and nutritional awareness, making the application more robust and user-centric.
 
- 7. Step-by-Step Guide
-1. Open Your Assistant: Fire up the application in your favorite IDE and get ready to cook up a storm!
-2. Access Your Recipes: Clone the repository from GitHub or download the zip file to access your assistant's features and resources.
-3. Run the Application: Open the project in your IDE and hit play to start using your assistant.
-4. Navigate the Menu: Explore the menu options displayed on the screen and choose what you'd like to do next.
-5. Select Your Actions: Whether it's entering recipe details, adjusting quantities, or exploring recipes, your assistant has you covered.
-6. Follow the Prompts: Your assistant will guide you every step of the way with clear instructions and helpful tips.
-7. Enjoy Cooking: With your assistant by your side, cooking becomes a joyous experience. Explore new recipes, experiment with flavors, and savor every moment in the kitchen!
+**Instructions for Compilation and Running the Software**
 
- What's New in Part 2?
+**Prerequisites:**
+- .NET Framework 4.7.2 or higher
+- Visual Studio 2019 or higher
 
- Updates and Enhancements
-In Part 2, your assistant gets even better with exciting updates and enhancements:
-- Unlimited Recipe Entry: Create as many recipes as you like – there's no limit to your culinary creativity!
-- Custom Recipe Names: Personalize your recipes with unique names for easy identification.
-- Alphabetical Recipe Listing: Find your recipes in a snap with alphabetical sorting.
-- Expanded Ingredient Details: Get more information about your ingredients, including calorie count and food group classification.
-- Total Calorie Calculation: Know the nutritional value of your recipes at a glance with total calorie calculation.
-- Calorie Exceedance Notification: Stay informed about calorie limits with notifications when a recipe exceeds 300 calories.
+**Compilation Steps:**
+1. Clone the repository from GitHub.
+2. Open the solution file, RecipeAppPoe.sln, in Visual Studio.
+3. Restore NuGet packages by right-clicking on the solution in the Solution Explorer and selecting "Restore NuGet Packages".
+4. Build the solution by clicking on "Build" in the menu and choosing "Build Solution" (or press Ctrl+Shift+B).
 
- Conclusion
+**Running the Application:**
+- After successfully building the solution, press F5 or click the "Start" button in Visual Studio to launch the application.
+- The application window will open, providing access to all functionalities such as adding, viewing, deleting, and scaling recipes.
 
-With your personal recipe assistant, cooking becomes a delightful adventure. From planning meals to exploring new flavors, your assistant is here to support you every step of the way. Say goodbye to kitchen chaos and hello to culinary bliss with your trusty recipe assistant by your side!
+**Contribution**
+
+This PROG6221 POE Part 3 Recipe Application was developed by Ziyaad Mahomed, a BCAD student. Contributions and code references from other developers, websites, and online sources have been appropriately acknowledged and incorporated into the project.
+
+**License**
+
+The PROG6221 POE Part One Recipe Application is licensed under the MIT license, ensuring openness and freedom for further development and distribution.
+
+**References**
+
+For additional learning and support, references from resources like W3Schools C# Tutorial were consulted and utilized during the development process.
