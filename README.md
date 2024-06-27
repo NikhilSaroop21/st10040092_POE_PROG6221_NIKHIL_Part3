@@ -1,6 +1,6 @@
-**Recipe APP
+Recipe Application
 
-This Recipe App  is a user-friendly Windows Presentation Foundation (WPF) application designed to streamline recipe creation, management, and scaling. It simplifies adding ingredients and detailed preparation steps, allowing users to adjust ingredient quantities while preserving original amounts with ease.
+This Recipe Application  is a user-friendly Windows Presentation Foundation (WPF) application designed to streamline recipe creation, management, and scaling. It simplifies adding ingredients and detailed preparation steps, allowing users to adjust ingredient quantities while preserving original amounts with ease.
 
 Key Features
 
