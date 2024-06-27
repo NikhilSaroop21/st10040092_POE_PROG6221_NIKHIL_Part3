@@ -13,7 +13,7 @@ Recipe Management:
 Filtering and Searching:
 - Filter by Ingredient: Search recipes by specific ingredient names.
 - Filter by Food Group: Categorize recipes based on their associated food groups.
-- Filter by Calories: Set maximum calorie limits to filter recipes accordingly.
+
 
 Recipe Scaling:
 - Scale Recipes: Adjust ingredient quantities by factors of 0.5, 2, or 3 to cater to different serving sizes.
@@ -21,7 +21,7 @@ Recipe Scaling:
 
 Enhancements and Improvements
 
-Based on user feedback, RecipeAppPoe underwent a significant transformation from a console-based interface to a more intuitive WPF interface. This upgrade aims to enhance usability and functionality, introducing advanced features such as ingredient and calorie-based filtering. The addition of recipe scaling options and calorie alerts ensures flexibility and nutritional awareness, making the application more robust and user-centric.
+Based on user feedback, Recipe Application Poe underwent a significant transformation from a console-based interface to a more intuitive WPF interface. This upgrade aims to enhance usability and functionality, introducing advanced features such as ingredient and calorie-based filtering. The addition of recipe scaling options and calorie alerts ensures flexibility and nutritional awareness, making the application more robust and user-centric.
 
 Instructions for Compilation and Running the Software
 
