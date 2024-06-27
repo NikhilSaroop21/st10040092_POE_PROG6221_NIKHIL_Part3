@@ -8,7 +8,8 @@ Recipe Management:
 - Add Recipes: Effortlessly create new recipes complete with ingredients and preparation steps.
 - View Recipes: Access a comprehensive list of all recipes stored in the application.
 - Delete Recipes: Remove specific recipes from the list as needed.
-- Clear All Recipes: Easily clear the entire recipe database with a single action.
+- Upscale and reset:values of ingredients amounts
+- Clear or Delete  Recipes choice: Easily clear the entire recipe database with a single action.
 
 Filtering and Searching:
 - Filter by Ingredient: Search recipes by specific ingredient names.
