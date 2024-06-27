@@ -1,6 +1,6 @@
-**RecipeAppPoe**
+**Recipe APP
 
-This Recipe App Poe is a user-friendly Windows Presentation Foundation (WPF) application designed to streamline recipe creation, management, and scaling. It simplifies adding ingredients and detailed preparation steps, allowing users to adjust ingredient quantities while preserving original amounts with ease.
+This Recipe App  is a user-friendly Windows Presentation Foundation (WPF) application designed to streamline recipe creation, management, and scaling. It simplifies adding ingredients and detailed preparation steps, allowing users to adjust ingredient quantities while preserving original amounts with ease.
 
 Key Features
 
@@ -25,9 +25,7 @@ Based on user feedback, RecipeAppPoe underwent a significant transformation from
 
 Instructions for Compilation and Running the Software
 
-Prerequisites:
-- .NET Framework 4.7.2 or higher
-- Visual Studio 2019 or higher
+
 
 Compilation Steps:
 1. Clone the repository from GitHub.
@@ -40,6 +38,3 @@ Running the Application:
 - The application window will open, providing access to all functionalities such as adding, viewing, deleting, and scaling recipes.
 
 
-**References**
-
-For additional learning and support, references from resources like W3Schools C# Tutorial were consulted and utilized during the development process.
