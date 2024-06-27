@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic; // Importing the Microsoft.VisualBasic namespace for InputBox
+using Microsoft.VisualBasic; // Importing the Microsoft.VisualBasic namespace for InputBox
 using st10040092_POE_PROG6221_NIKHIL; // Importing the namespace where the ingredients class is defined
 using System;
 using System.Collections.Generic;
@@ -132,9 +132,9 @@ namespace st10040092_POE_PROG6221_NIKHIL
         public void Clear()
         {
             // Confirm with the user before clearing data
-            MessageBoxResult result = MessageBox.Show("Are you sure you want to clear the data?", "Clear Recipe Data", MessageBoxButton.YesNo);
+            MessageBoxResult resultfound = MessageBox.Show("Are you sure you want to clear the data?", "Clear Recipe Data", MessageBoxButton.YesNo);
 
-            if (result == MessageBoxResult.Yes)
+            if (resultfound == MessageBoxResult.Yes)
             {
                 ingredients.Clear(); // Clear ingredients list
                 steps.Clear(); // Clear steps list
@@ -147,34 +147,35 @@ namespace st10040092_POE_PROG6221_NIKHIL
         }
 
         // Helper method to prompt the user for input using InputBox
-        private string PromptInput(string message)
+        private string PromptInput(string messageCheck)
         {
-            return Interaction.InputBox(message, "Recipe Entry");
+            return Interaction.InputBox(messageCheck, "Recipe Entry");
         }
 
         // Helper method to get a validated integer input from the user
-        private int GetValidatedIntInput(string message)
+        private int GetValidatedIntInput(string messageCheck)
         {
-            int result;
-            while (!int.TryParse(PromptInput(message), out result) || result <= 0)
+            int resultfound;
+            while (!int.TryParse(PromptInput(messageCheck), out resultfound) || resultfound <= 0)
             {
                 MessageBox.Show("Please enter a valid positive integer."); // Validation message
             }
-            return result;
+            return resultfound;
         }
 
         // Helper method to get a validated double input from the user
-        private double GetValidatedDoubleInput(string message)
+        private double GetValidatedDoubleInput(string messageCheck)
         {
-            double result;
-            while (!double.TryParse(PromptInput(message), out result) || result <= 0)
+            double resultfound;
+            while (!double.TryParse(PromptInput(messageCheck), out resultfound) || resultfound <= 0)
             {
                 MessageBox.Show("Please enter a valid positive number."); // Validation message
             }
-            return result;
+            return resultfound;
         }
     }
 }
+
 
 //CODE ATTRIBUTION: A. Troelsen and P. Japikse. 2022. Pro C# 10 with .NET 6. 11th ed.West Chester, OH, USA. Apress.
 // code attribution
